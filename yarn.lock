@@ -2,36 +2,77 @@
 # yarn lockfile v1
 
 
-"esbuild-windows-64@0.14.25":
-  "integrity" "sha512-TirEohRkfWU9hXLgoDxzhMQD1g8I2mOqvdQF2RS9E/wbkORTAqJHyh7wqGRCQAwNzdNXdg3JAyhQ9/177AadWA=="
-  "resolved" "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.14.25.tgz"
-  "version" "0.14.25"
+"asynckit@^0.4.0":
+  "integrity" "sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q=="
+  "resolved" "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
+  "version" "0.4.0"
 
-"esbuild@^0.14.14":
-  "integrity" "sha512-4JHEIOMNFvK09ziiL+iVmldIhLbn49V4NAVo888tcGFKedEZY/Y8YapfStJ6zSE23tzYPKxqKwQBnQoIO0BI/Q=="
-  "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.14.25.tgz"
-  "version" "0.14.25"
+"axios@^1.6.7":
+  "integrity" "sha512-/hDJGff6/c7u0hDkvkGxR/oy6CbCs8ziCsC7SqmhjfozqiJGc8Z11wrv9z9lYfY4K8l+H9TpjcMDX0xOZmx+RA=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-1.6.7.tgz"
+  "version" "1.6.7"
+  dependencies:
+    "follow-redirects" "^1.15.4"
+    "form-data" "^4.0.0"
+    "proxy-from-env" "^1.1.0"
+
+"combined-stream@^1.0.8":
+  "integrity" "sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg=="
+  "resolved" "https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz"
+  "version" "1.0.8"
+  dependencies:
+    "delayed-stream" "~1.0.0"
+
+"delayed-stream@~1.0.0":
+  "integrity" "sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ=="
+  "resolved" "https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz"
+  "version" "1.0.0"
+
+"esbuild-windows-64@0.14.54":
+  "integrity" "sha512-AoHTRBUuYwXtZhjXZbA1pGfTo8cJo3vZIcWGLiUcTNgHpJJMC1rVA44ZereBHMJtotyN71S8Qw0npiCIkW96cQ=="
+  "resolved" "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.14.54.tgz"
+  "version" "0.14.54"
+
+"esbuild@^0.14.27":
+  "integrity" "sha512-Cy9llcy8DvET5uznocPyqL3BFRrFXSVqbgpMJ9Wz8oVjZlh/zUSNbPRbov0VX7VxN2JH1Oa0uNxZ7eLRb62pJA=="
+  "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.14.54.tgz"
+  "version" "0.14.54"
   optionalDependencies:
-    "esbuild-android-64" "0.14.25"
-    "esbuild-android-arm64" "0.14.25"
-    "esbuild-darwin-64" "0.14.25"
-    "esbuild-darwin-arm64" "0.14.25"
-    "esbuild-freebsd-64" "0.14.25"
-    "esbuild-freebsd-arm64" "0.14.25"
-    "esbuild-linux-32" "0.14.25"
-    "esbuild-linux-64" "0.14.25"
-    "esbuild-linux-arm" "0.14.25"
-    "esbuild-linux-arm64" "0.14.25"
-    "esbuild-linux-mips64le" "0.14.25"
-    "esbuild-linux-ppc64le" "0.14.25"
-    "esbuild-linux-riscv64" "0.14.25"
-    "esbuild-linux-s390x" "0.14.25"
-    "esbuild-netbsd-64" "0.14.25"
-    "esbuild-openbsd-64" "0.14.25"
-    "esbuild-sunos-64" "0.14.25"
-    "esbuild-windows-32" "0.14.25"
-    "esbuild-windows-64" "0.14.25"
-    "esbuild-windows-arm64" "0.14.25"
+    "@esbuild/linux-loong64" "0.14.54"
+    "esbuild-android-64" "0.14.54"
+    "esbuild-android-arm64" "0.14.54"
+    "esbuild-darwin-64" "0.14.54"
+    "esbuild-darwin-arm64" "0.14.54"
+    "esbuild-freebsd-64" "0.14.54"
+    "esbuild-freebsd-arm64" "0.14.54"
+    "esbuild-linux-32" "0.14.54"
+    "esbuild-linux-64" "0.14.54"
+    "esbuild-linux-arm" "0.14.54"
+    "esbuild-linux-arm64" "0.14.54"
+    "esbuild-linux-mips64le" "0.14.54"
+    "esbuild-linux-ppc64le" "0.14.54"
+    "esbuild-linux-riscv64" "0.14.54"
+    "esbuild-linux-s390x" "0.14.54"
+    "esbuild-netbsd-64" "0.14.54"
+    "esbuild-openbsd-64" "0.14.54"
+    "esbuild-sunos-64" "0.14.54"
+    "esbuild-windows-32" "0.14.54"
+    "esbuild-windows-64" "0.14.54"
+    "esbuild-windows-arm64" "0.14.54"
+
+"follow-redirects@^1.15.4":
+  "integrity" "sha512-vSFWUON1B+yAw1VN4xMfxgn5fTUiaOzAJCKBwIIgT/+7CuGy9+r+5gITvP62j3RmaD5Ph65UaERdOSRGUzZtgw=="
+  "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.5.tgz"
+  "version" "1.15.5"
+
+"form-data@^4.0.0":
+  "integrity" "sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww=="
+  "resolved" "https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "asynckit" "^0.4.0"
+    "combined-stream" "^1.0.8"
+    "mime-types" "^2.1.12"
 
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
@@ -52,10 +93,22 @@
   dependencies:
     "has" "^1.0.3"
 
-"nanoid@^3.3.1":
-  "integrity" "sha512-n6Vs/3KGyxPQd6uO0eH4Bv0ojGSUvuLlIHtC3Y0kEO23YRge8H9x1GCzLn28YX0H66pMkxuaeESFq4tKISKwdw=="
-  "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.3.1.tgz"
-  "version" "3.3.1"
+"mime-db@1.52.0":
+  "integrity" "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg=="
+  "resolved" "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz"
+  "version" "1.52.0"
+
+"mime-types@^2.1.12":
+  "integrity" "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw=="
+  "resolved" "https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz"
+  "version" "2.1.35"
+  dependencies:
+    "mime-db" "1.52.0"
+
+"nanoid@^3.3.7":
+  "integrity" "sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g=="
+  "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.3.7.tgz"
+  "version" "3.3.7"
 
 "path-parse@^1.0.7":
   "integrity" "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw=="
@@ -67,14 +120,19 @@
   "resolved" "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
   "version" "1.0.0"
 
-"postcss@^8.4.6":
-  "integrity" "sha512-2tXEqGxrjvAO6U+CJzDL2Fk2kPHTv1jQsYkSoMeOis2SsYaXRO2COxTdQp99cYvif9JTXaAk9lYGc3VhJt7JPQ=="
-  "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.4.8.tgz"
-  "version" "8.4.8"
+"postcss@^8.4.13":
+  "integrity" "sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA=="
+  "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.4.35.tgz"
+  "version" "8.4.35"
   dependencies:
-    "nanoid" "^3.3.1"
+    "nanoid" "^3.3.7"
     "picocolors" "^1.0.0"
     "source-map-js" "^1.0.2"
+
+"proxy-from-env@^1.1.0":
+  "integrity" "sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg=="
+  "resolved" "https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz"
+  "version" "1.1.0"
 
 "resolve@^1.22.0":
   "integrity" "sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw=="
@@ -85,7 +143,7 @@
     "path-parse" "^1.0.7"
     "supports-preserve-symlinks-flag" "^1.0.0"
 
-"rollup@^2.59.0":
+"rollup@>=2.59.0 <2.78.0":
   "integrity" "sha512-iEzYw+syFxQ0X9RefVwhr8BA2TNJsTaX8L8dhyeyMECDbmiba+8UQzcu+xZdji0+JQ+s7kouQnw+9Oz5M19XKA=="
   "resolved" "https://registry.npmjs.org/rollup/-/rollup-2.70.0.tgz"
   "version" "2.70.0"
@@ -108,13 +166,13 @@
   "version" "4.6.2"
 
 "vite@^2.8.0":
-  "integrity" "sha512-e4H0QpludOVKkmOsRyqQ7LTcMUDF3mcgyNU4lmi0B5JUbe0ZxeBBl8VoZ8Y6Rfn9eFKYtdXNPcYK97ZwH+K2ug=="
-  "resolved" "https://registry.npmjs.org/vite/-/vite-2.8.6.tgz"
-  "version" "2.8.6"
+  "integrity" "sha512-XxcRzra6d7xrKXH66jZUgb+srThoPu+TLJc06GifUyKq9JmjHkc1Numc8ra0h56rju2jfVWw3B3fs5l3OFMvUw=="
+  "resolved" "https://registry.npmjs.org/vite/-/vite-2.9.17.tgz"
+  "version" "2.9.17"
   dependencies:
-    "esbuild" "^0.14.14"
-    "postcss" "^8.4.6"
+    "esbuild" "^0.14.27"
+    "postcss" "^8.4.13"
     "resolve" "^1.22.0"
-    "rollup" "^2.59.0"
+    "rollup" ">=2.59.0 <2.78.0"
   optionalDependencies:
     "fsevents" "~2.3.2"
