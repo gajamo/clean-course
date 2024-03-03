@@ -1,4 +1,6 @@
 import './style.css'
+// import './clean-code/07-tarea';
+import './solid/01-srp';
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
