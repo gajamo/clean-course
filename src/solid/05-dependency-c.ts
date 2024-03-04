@@ -39,8 +39,8 @@ export class WebPostService implements PostPrivider{
     async getPosts(){
 
         const resp = await fetch ('https://jsonplaceholder.typicode.com/posts');
-        const data = await resp.json();
+        const pots = await resp.json();
          
-        return data;
+        return pots;
     }
 }
